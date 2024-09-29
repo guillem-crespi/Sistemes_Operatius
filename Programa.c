@@ -9,7 +9,6 @@ void main() {
     int err;
     MYSQL_RES *result;
     MYSQL_ROW row;
-    int err;
 
     conn = mysql_init(NULL);
     if (conn == NULL) {
